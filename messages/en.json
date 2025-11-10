@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "education": "Education",
+    "skills": "Skills",
+    "contact": "Contact",
+    "menu": "Menu",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "header": {
+    "description": "A passionate <highlightBlue>Frontend Web Developer</highlightBlue> specializing in building fast, responsive, and elegant web applications using <highlight>React.js</highlight> and <highlight>Next.js</highlight> with <highlight>Tailwind CSS</highlight> and modern web tools.",
+    "location": "Egypt",
+    "phone": "+21119876543"
+  },
+  "skills": {
+    "title1": "My",
+    "title2": "Skills & Tech Stack",
+    "subtitle": "Merging technical logic with creative front-end artistry",
+    "frontend": {
+      "title": "Frontend",
+      "desc": "Building seamless, performant, and elegant interfaces using modern frameworks."
+    },
+    "backend": {
+      "title": "Backend",
+      "desc": "Good understanding of server logic, API design, and databases."
+    },
+    "focus": {
+      "prefix": "Currently focusing on",
+      "highlight": "performance optimization, accessibility, and advanced Next.js patterns."
+    }
+  },
+  "contact": {
+    "title": "Get",
+    "title2": "in Touch",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "location": "Giza, Egypt",
+    "emailPlaceholder": "Enter your email",
+    "subjectPlaceholder": "Enter subject",
+    "messagePlaceholder": "Write your message...",
+    "phone": "+21119876543"
+  },
+  "footer": {
+    "name": "Mohamed Khaled",
+    "role": "Frontend Developer — UI / UX",
+    "about": "I build accessible, performant web experiences focused on React, Next.js, and clean design.",
+    "navigate": "Explore",
+    "home": "Home",
+    "about_page": "About Me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "contact_section": "Connect",
+    "hire": "Send a Message",
+    "built": "Built using Next.js 16"
+  },
+
+
+  "projects": {
+    "title1": "My",
+    "title2": "Recent Projects",
+    "subtitle": "A few highlights from my latest work — built with modern web technologies.",
+    "visit": "Visit",
+    "akhdar": {
+      "title": "AKHDAR",
+      "description": "A web platform promoting environmental protection in Egypt, raising awareness and sharing eco-friendly initiatives."
+    },
+    "megaMart": {
+      "title": "Mega Mart",
+      "description": "An e-commerce web app offering a modern shopping experience with cart, product filters, and responsive design."
+    },
+    "zamalek": {
+      "title": "Zamalek Insider",
+      "description": "A React-based news and stats site dedicated to Zamalek SC — featuring club updates, match data, and player info."
+    }
+  }
+}
