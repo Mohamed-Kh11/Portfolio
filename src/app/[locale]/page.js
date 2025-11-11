@@ -12,7 +12,7 @@ export const metadata = {
   },
   description:
     "Mohamed Khaled — Frontend Developer creating fast, responsive, and accessible web applications using React, Next.js, and Tailwind CSS. Passionate about design, performance, and user experiences.",
-  metadataBase: new URL("https://megamart-orcin.vercel.app"),
+  metadataBase: new URL("https://mohamed-kh.netlify.app"),
   alternates: {
     canonical: "/",
   },
@@ -20,7 +20,7 @@ export const metadata = {
     title: "Mohamed Khaled — Frontend Developer",
     description:
       "creating fast, responsive, and accessible web applications using React, Next.js, and Tailwind CSS. Passionate about design, performance, and user experiences.",
-    url: "https://megamart-orcin.vercel.app/",
+    url: "https://mohamed-kh.netlify.app/",
     siteName: "Mohamed Khaled",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Mohamed Khaled",
     description:
-      "Discover top-quality products and unbeatable deals at Mega Mart.",
+      "Frontend Developer, Passionate about design, performance, and user experiences. ",
     images: ["../images/link.png"],
   },
   icons: {

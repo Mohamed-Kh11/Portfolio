@@ -8,46 +8,44 @@ import "../../app/globals.css";
 import Providers from "./components/providers";
 import NavBar from "./components/NavBar";
 
-
-// export const metadata = {
-//   title: {
-//     default: "Mega Mart",
-//     template: "%s | Mega Mart",
-//   },
-//   description:
-//     "Discover top-quality products, unbeatable deals, and everything you need — all in one place at Mega Mart.",
-//   metadataBase: new URL("https://www.megamart.com"),
-//   alternates: {
-//     canonical: "/",
-//   },
-//   openGraph: {
-//     title: "Mega Mart – Everything in One Place",
-//     description:
-//       "Shop electronics, beauty, fashion, groceries, and more — all at unbeatable prices.",
-//     url: "https://www.megamart.com/",
-//     siteName: "Mega Mart",
-//     images: [
-//       {
-//         url: "/images/og-home.jpg",
-//         width: 1200,
-//         height: 630,
-//         alt: "Mega Mart – Online Shopping",
-//       },
-//     ],
-//     locale: "en_US",
-//     type: "website",
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "Mega Mart",
-//     description:
-//       "Discover top-quality products and unbeatable deals at Mega Mart.",
-//     images: ["/images/og-home.jpg"],
-//   },
-//   icons: {
-//     icon: "/favicon.ico",
-//   },
-// };
+export const metadata = {
+  title: {
+    default: "Mohamed's Portfolio",
+  },
+  description:
+    "Mohamed Khaled — Frontend Developer creating fast, responsive, and accessible web applications using React, Next.js, and Tailwind CSS. Passionate about design, performance, and user experiences.",
+  metadataBase: new URL("https://mohamed-kh.netlify.app"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Mohamed Khaled — Frontend Developer",
+    description:
+      "Creating fast, responsive, and accessible web applications using React, Next.js, and Tailwind CSS. Passionate about design, performance, and user experiences.",
+    url: "https://mohamed-kh.netlify.app/",
+    siteName: "Mohamed Khaled Portfolio",
+    images: [
+      {
+        url: "/images/link.png",
+        width: 1200,
+        height: 630,
+        alt: "Mohamed Khaled — Frontend Developer",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mohamed Khaled — Frontend Developer",
+    description:
+      "Frontend Developer building fast, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
+    images: ["/images/link.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
@@ -63,7 +61,7 @@ export default async function RootLayout({ children, params }) {
       suppressHydrationWarning
     >
       <head>
-        {/* ✅ Pre-hydration script to set dark/light theme before hydration */}
+        {/* ✅ Pre-hydration script for theme */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -82,30 +80,24 @@ export default async function RootLayout({ children, params }) {
           }}
         />
 
-        {/* ✅ JSON-LD Structured Data for Organization */}
-        {/* <script
+        {/* ✅ JSON-LD Structured Data for Personal Portfolio */}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Mega Mart",
-              url: "https://www.megamart.com",
-              logo: "https://www.megamart.com/logo.png",
+              "@type": "Person",
+              name: "Mohamed Khaled",
+              url: "https://megamart-orcin.vercel.app",
+              jobTitle: "Frontend Developer",
               sameAs: [
-                "https://www.facebook.com/megamart",
-                "https://www.instagram.com/megamart",
-                "https://www.twitter.com/megamart",
+                "https://github.com/",
+                "https://linkedin.com/",
+                "https://twitter.com/",
               ],
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+201234567890",
-                contactType: "Customer Service",
-                availableLanguage: ["English", "Arabic"],
-              },
             }),
           }}
-        /> */}
+        />
       </head>
 
       <body
@@ -114,7 +106,7 @@ export default async function RootLayout({ children, params }) {
         ${locale === "en" ? "font-[Poppins]" : "font-[Alex]"}`}
       >
         <Providers locale={locale} messages={messages}>
-          <NavBar/>
+          <NavBar />
           <main>{children}</main>
           <Toaster position="top-center" reverseOrder={false} />
         </Providers>
