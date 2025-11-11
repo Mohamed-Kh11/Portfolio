@@ -26,7 +26,7 @@ export const metadata = {
     siteName: "Mohamed Khaled Portfolio",
     images: [
       {
-        url: "/images/link.png",
+        url: "./images/link.png",
         width: 1200,
         height: 630,
         alt: "Mohamed Khaled — Frontend Developer",
@@ -40,7 +40,7 @@ export const metadata = {
     title: "Mohamed Khaled — Frontend Developer",
     description:
       "Frontend Developer building fast, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
-    images: ["/images/link.png"],
+    images: ["./images/link.png"],
   },
   icons: {
     icon: "/favicon.ico",

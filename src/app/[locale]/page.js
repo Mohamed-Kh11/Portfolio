@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import Projects from "./components/Projects";
 
+
 export const metadata = {
   title: {
     default: "Mohamed's Portfolio",
@@ -24,7 +25,7 @@ export const metadata = {
     siteName: "Mohamed Khaled",
     images: [
       {
-        url: "../images/link.png",
+        url: "./images/link.png",
         width: 1200,
         height: 630,
         alt: "Mohamed Khaled — Frontend Developer",
@@ -38,7 +39,7 @@ export const metadata = {
     title: "Mohamed Khaled",
     description:
       "Frontend Developer, Passionate about design, performance, and user experiences. ",
-    images: ["../images/link.png"],
+    images: ["./images/link.png"],
   },
   icons: {
     icon: "/favicon.ico",
