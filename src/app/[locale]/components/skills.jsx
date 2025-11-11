@@ -138,15 +138,6 @@ export default function SkillsSection() {
           ))}
         </motion.div>
 
-        {/* ==== Current Focus ==== */}
-        <div className="text-center mt-10">
-          <h3 className="text-lg text-gray-700 dark:text-gray-300">
-            {t("focus.prefix")}{" "}
-            <span className="font-semibold text-sky-600 dark:text-sky-400">
-              {t("focus.highlight")}
-            </span>
-          </h3>
-        </div>
       </div>
     </section>
   );
