@@ -57,7 +57,7 @@ export default function Header() {
           {/* Info Row (Location, Phone, GitHub) */}
           <div
             className="flex flex-wrap justify-center items-center gap-5 
-            text-gray-700 dark:text-gray-200 text-sm mt-4"
+            text-gray-700 dark:text-gray-200 text-sm mt-3"
           >
             <div className="flex items-center gap-1">
               <MapPin size={16} className="text-sky-700" />
