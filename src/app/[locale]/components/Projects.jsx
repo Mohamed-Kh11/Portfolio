@@ -8,42 +8,54 @@ import { useTranslations } from "next-intl";
 import mega from "../images/mega.png";
 import zamalek from "../images/zamalek.png";
 import akhdar from "../images/akhdar.png";
+import egyptExplorer from "../images/egypt.webp";
 
 export default function Projects() {
   const t = useTranslations("projects");
 
-  const projects = [
-    {
-      id: 1,
-      title: t("akhdar.title"),
-      description: t("akhdar.description"),
-      image: akhdar,
-      tech: ["Next.js", "Tailwind CSS", "Javascript"],
-      demo: "https://akhdar.vercel.app/",
-      github: "#",
-      accent: "from-green-500 to-emerald-400",
-    },
-    {
-      id: 2,
-      title: t("megaMart.title"),
-      description: t("megaMart.description"),
-      image: mega,
-      tech: ["Next.js", "Tailwind CSS", "Javascript"],
-      demo: "https://megamart-orcin.vercel.app/",
-      github: "#",
-      accent: "from-MegaLight to-MegaLight2",
-    },
-    {
-      id: 3,
-      title: t("zamalek.title"),
-      description: t("zamalek.description"),
-      image: zamalek,
-      tech: ["React.js", "Tailwind CSS", "Javascript"],
-      demo: "https://zamalek-insider.vercel.app/",
-      github: "#",
-      accent: "from-red-700 to-red-600",
-    },
-  ];
+const projects = [
+  {
+    id: 1,
+    title: t("akhdar.title"),
+    description: t("akhdar.description"),
+    image: akhdar,
+    tech: ["Next.js", "Tailwind CSS", "Javascript"],
+    demo: "https://akhdar.vercel.app/",
+    github: "#",
+    accent: "from-green-500 to-emerald-400",
+  },
+  {
+    id: 2,
+    title: t("megaMart.title"),
+    description: t("megaMart.description"),
+    image: mega,
+    tech: ["Next.js", "Tailwind CSS", "Javascript"],
+    demo: "https://megamart-orcin.vercel.app/",
+    github: "#",
+    accent: "from-MegaLight to-MegaLight2",
+  },
+  {
+    id: 3,
+    title: t("zamalek.title"),
+    description: t("zamalek.description"),
+    image: zamalek,
+    tech: ["React.js", "Tailwind CSS", "Javascript"],
+    demo: "https://zamalek-insider.vercel.app/",
+    github: "#",
+    accent: "from-red-700 to-red-600",
+  },
+  {
+    id: 4,
+    title: t("egyptExplorer.title"),
+    description: t("egyptExplorer.description"),
+    image: egyptExplorer, 
+    tech: ["Next.js", "Tailwind CSS", "Javascript"],
+    demo: "https://egypt-explorer.vercel.app/",
+    github: "#",
+    accent: "from-yellow-500 to-orange-400",
+  },
+];
+
 
   return (
     <section id="projects" className="w-full py-16 px-6 sm:px-12 bg-transparent">

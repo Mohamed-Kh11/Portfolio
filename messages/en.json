@@ -57,8 +57,6 @@
     "hire": "Send a Message",
     "built": "Built using Next.js 16"
   },
-
-
   "projects": {
     "title1": "My",
     "title2": "Recent Projects",
@@ -75,6 +73,10 @@
     "zamalek": {
       "title": "Zamalek Insider",
       "description": "A React-based news and stats site dedicated to Zamalek SC — featuring club updates, match data, and player info."
+    },
+    "egyptExplorer": {
+      "title": "Egypt Explorer",
+      "description": "Discover Egypt's top touristic destinations, explore photo galleries, and more."
     }
   }
 }
