@@ -74,7 +74,7 @@ const projects = [
         </div>
 
         {/* ==== Projects Grid ==== */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {projects.map((project) => (
             <div
               key={project.id}
