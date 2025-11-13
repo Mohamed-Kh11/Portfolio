@@ -1,7 +1,7 @@
 /** @type {import('next-intl').Config} */
 const nextIntlConfig = {
   locales: ["en", "ar"],
-  defaultLocale: "ar",
+  defaultLocale: "en",
   timeZone: "Africa/Cairo" // ✅ must be here
 };
 
